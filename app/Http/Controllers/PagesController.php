@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Post;
 use Illuminate\Http\Request;
 
 class PagesController extends Controller
@@ -31,5 +32,10 @@ class PagesController extends Controller
             'services'=> ['Web Design','Programming','SEO']
         );
         return view ('pages.services')->with($data);
+    }
+
+    public function blog(){
+        $posts = Post::orderBy('created_at', 'desc')->get();
+        return view ('layouts.frontend_n.blog', compact('posts')); ///Method 2
     }
 }
