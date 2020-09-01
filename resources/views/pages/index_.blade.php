@@ -15,9 +15,9 @@
                     </div>
                     <div class="col-xl-6 col-md-6">
                         <div class="slider_info">
-                            <h3>Learn Robotics <br>
-                                With Arduino <br>
-                                ආඩුයිනෝ එක්ක රොබොටික්ස් ඉගෙනගමුද ?
+                            <h3>Learn Arduino | Iot | Raspberry Pi <br>
+                               <br>
+                                රොබොටික්ස් ඉගෙනගමුද ?
                                 </h3>
                             <a href="#" class="boxed_btn">Browse Our Courses</a>
                         </div>
