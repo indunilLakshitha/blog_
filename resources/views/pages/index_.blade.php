@@ -37,8 +37,8 @@
                 <div class="col-xl-12">
                     <div class="section_title text-center mb-100">
                         <h3>Popular Courses</h3>
-                        <p>Your domain control panel is designed for ease-of-use and <br> allows for all aspects of your
-                            domains.</p>
+                        {{-- <p>Your domain control panel is designed for ease-of-use and <br> allows for all aspects of your
+                            domains.</p> --}}
                     </div>
                 </div>
             </div>
@@ -49,7 +49,7 @@
                             <ul class="nav" id="myTab" role="tablist">
                                 <li class="nav-item">
                                     <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab"
-                                        aria-controls="home" aria-selected="true">Arduino</a>
+                                        aria-controls="home" aria-selected="true">Popular</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
@@ -99,22 +99,22 @@
                                         <div class="single_courses">
                                             <div class="thumb">
                                                 <a href="#">
-                                                    <img src="{{asset('front_/img/courses/1.png')}}" alt="">
+                                                    <img src="{{asset('front_/img/courses/arduino.png')}}" alt="">
                                                 </a>
                                             </div>
                                             <div class="courses_info">
-                                                <span>Photoshop</span>
-                                                <h3><a href="#">Mobile App design step by step <br>
+                                                <span>Arduino</span>
+                                                <h3><a href="#">Arduino Developments step by step <br>
                                                         from beginner</a></h3>
                                                 <div class="star_prise d-flex justify-content-between">
                                                     <div class="star">
                                                         <i class="flaticon-mark-as-favorite-star"></i>
-                                                        <span>(4.5)</span>
+                                                        <span>(5.0)</span>
                                                     </div>
                                                     <div class="prise">
-                                                        <span class="offer">$89.00</span>
+                                                        <span class="offer">Rs.25 000.00</span>
                                                         <span class="active_prise">
-                                                            $49
+                                                            Rs.20 000.00
                                                         </span>
                                                     </div>
                                                 </div>
@@ -125,21 +125,21 @@
                                         <div class="single_courses">
                                             <div class="thumb">
                                                 <a href="#">
-                                                    <img src="{{asset('front_/img/courses/2.png')}}" alt="">
+                                                    <img src="{{asset('front_/img/courses/node.png')}}" alt="">
                                                 </a>
                                             </div>
                                             <div class="courses_info">
-                                                <span>Adobe XD</span>
-                                                <h3><a href="#">UI/UX design with Adobe XD with Anderson</a></h3>
+                                                <span>Node MCU</span>
+                                                <h3><a href="#">IoT Developments with Node MCU</a></h3>
                                                 <div class="star_prise d-flex justify-content-between">
                                                     <div class="star">
                                                         <i class="flaticon-mark-as-favorite-star"></i>
-                                                        <span>(4.5)</span>
+                                                        <span>(5.0)</span>
                                                     </div>
                                                     <div class="prise">
-                                                        <span class="offer">$89.00</span>
+                                                        <span class="offer">Rs.28 000.00</span>
                                                         <span class="active_prise">
-                                                            $49
+                                                            Rs.24 000.00
                                                         </span>
                                                     </div>
                                                 </div>
@@ -150,104 +150,29 @@
                                         <div class="single_courses">
                                             <div class="thumb">
                                                 <a href="#">
-                                                    <img src="{{asset('front_/img/courses/3.png')}}" alt="">
+                                                    <img src="{{asset('front_/img/courses/raspberry.png')}}" alt="">
                                                 </a>
                                             </div>
                                             <div class="courses_info">
-                                                <span>Wordpress</span>
-                                                <h3><a href="#">Wordpress theme development <br>
+                                                <span>Raspberry Pi</span>
+                                                <h3><a href="#">Raspberry Pi developments for Beginners <br>
                                                         from scratch</a></h3>
                                                 <div class="star_prise d-flex justify-content-between">
                                                     <div class="star">
                                                         <i class="flaticon-mark-as-favorite-star"></i>
-                                                        <span>(4.5)</span>
+                                                        <span>(5.0)</span>
                                                     </div>
                                                     <div class="prise">
-                                                        <span class="offer">$89.00</span>
+                                                        <span class="offer">Rs.28 000.00</span>
                                                         <span class="active_prise">
-                                                            $49
+                                                            Rs.24 000.00
                                                         </span>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-xl-4 col-lg-4 col-md-6">
-                                        <div class="single_courses">
-                                            <div class="thumb">
-                                                <a href="#">
-                                                    <img src="{{asset('front_/img/courses/4.png')}}" alt="">
-                                                </a>
-                                            </div>
-                                            <div class="courses_info">
-                                                <span>Photoshop</span>
-                                                <h3><a href="#">Mobile App design step by step <br>
-                                                        from beginner</a></h3>
-                                                <div class="star_prise d-flex justify-content-between">
-                                                    <div class="star">
-                                                        <i class="flaticon-mark-as-favorite-star"></i>
-                                                        <span>(4.5)</span>
-                                                    </div>
-                                                    <div class="prise">
-                                                        <span class="offer">$89.00</span>
-                                                        <span class="active_prise">
-                                                            $49
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-4 col-lg-4 col-md-6">
-                                        <div class="single_courses">
-                                            <div class="thumb">
-                                                <img src="{{asset('front_/img/courses/5.png')}}" alt="">
-                                            </div>
-                                            <div class="courses_info">
-                                                <span>UI/UX</span>
-                                                <h3><a href="#">How to complete user research <br>
-                                                        and make work flow</a></h3>
-                                                <div class="star_prise d-flex justify-content-between">
-                                                    <div class="star">
-                                                        <i class="flaticon-mark-as-favorite-star"></i>
-                                                        <span>(4.5)</span>
-                                                    </div>
-                                                    <div class="prise">
-                                                        <span class="offer">$89.00</span>
-                                                        <span class="active_prise">
-                                                            $49
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-4 col-lg-4 col-md-6">
-                                        <div class="single_courses">
-                                            <div class="thumb">
-                                                <a href="#">
-                                                    <img src="{{asset('front_/img/courses/6.png')}}" alt="">
-                                                </a>
-                                            </div>
-                                            <div class="courses_info">
-                                                <span>Wordpress</span>
-                                                <h3><a href="#">Commitment to dedicated <br>
-                                                        Support</a></h3>
-                                                <div class="star_prise d-flex justify-content-between">
-                                                    <div class="star">
-                                                        <i class="flaticon-mark-as-favorite-star"></i>
-                                                        <span>(4.5)</span>
-                                                    </div>
-                                                    <div class="prise">
-                                                        <span class="offer">$89.00</span>
-                                                        <span class="active_prise">
-                                                            $49
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                    
                                     <div class="col-xl-12">
                                         <div class="more_courses text-center">
                                             <a href="#" class="boxed_btn_rev">More Courses</a>
@@ -1626,10 +1551,9 @@
                         <div class="icon">
                             <i class="flaticon-art-and-design"></i>
                         </div>
-                        <h3>Premium Quality</h3>
+                        <h3>Fully Practicle Sessions</h3>
                         <p>
-                            Your domain control panel is designed for ease-of-use <br> and <br>
-                            allows for all aspects of
+                            All the modules are cover with fully practicle lessons and practice in class
                         </p>
                     </div>
                 </div>
@@ -1638,10 +1562,9 @@
                         <div class="icon blue">
                             <i class="flaticon-business-and-finance"></i>
                         </div>
-                        <h3>Premium Quality</h3>
+                        <h3>Low Cost</h3>
                         <p>
-                            Your domain control panel is designed for ease-of-use <br> and <br>
-                            allows for all aspects of
+                            All of Our courses are coming with unbeliveble price you will never got from anywhere
                         </p>
                     </div>
                 </div>
@@ -1650,10 +1573,9 @@
                         <div class="icon">
                             <i class="flaticon-premium"></i>
                         </div>
-                        <h3>Premium Quality</h3>
+                        <h3>Latest Technologies</h3>
                         <p>
-                            Your domain control panel is designed for ease-of-use <br> and <br>
-                            allows for all aspects of
+                            All the tes,codes and other stuffs are managed and share by using latest proffessional tools
                         </p>
                     </div>
                 </div>

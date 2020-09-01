@@ -13,9 +13,7 @@
                               </a>
                           </div>
                           <p>
-                              Firmament morning sixth subdue darkness creeping gathered divide our let god moving.
-                              Moving in fourth air night bring upon it beast let you dominion likeness open place day
-                              great.
+                              Be Ready for the Coming Future with latest Technologies 
                           </p>
                           <div class="socail_links">
                               <ul>
@@ -79,9 +77,9 @@
                               Address
                           </h3>
                           <p>
-                              200, D-block, Green lane USA <br>
-                              +10 367 467 8934 <br>
-                              edumark@contact.com
+                             Horana <br>
+                              +94 76 126 2279 <br>
+                              #sda@contact.com
                           </p>
                       </div>
                   </div>
@@ -94,9 +92,7 @@
               <div class="row">
                   <div class="col-xl-12">
                       <p class="copy_right text-center">
-                          <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved
                       </p>
                   </div>
               </div>
